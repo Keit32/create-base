@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Monorepo build outputs
+apps/*/dist/
+apps/*/.next/
+apps/*/.nest/
+packages/*/dist/
+
+# Environment files (secretlint also guards these)
+.env
+.env.*
+!.env.example
+!.env.test
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# pnpm
+.pnpm-store/
+
+# Upload directories
+uploads/
